@@ -3,7 +3,7 @@ import { useCallback } from 'react';
 import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 
-SplashScreen.preventAutoHideAsync();
+// SplashScreen.preventAutoHideAsync();
 
 const Layout = () => {
   const [fontsLoaded] = useFonts({
@@ -13,16 +13,16 @@ const Layout = () => {
   })
 
   // TODO:  There is an issue occuring with loading the fonts.
-  const onLayoutRootView = useCallback(async () => {
-    if (fontsLoaded) {
-      await SplashScreen.hideAsync();
-    }
-  }, [fontsLoaded]);
+  // const onLayoutRootView = useCallback(async () => {
+  //   if (fontsLoaded) {
+  //     await SplashScreen.hideAsync();
+  //   }
+  // }, [fontsLoaded]);
 
-  if (!fontsLoaded) return null;
-  return <Stack onLayout={onLayoutRootView} />
+  // if (!fontsLoaded) return null;
+  // return <Stack onLayout={onLayoutRootView} />
 
-  // return <Stack />
+  return <Stack />
 }
 
 export default Layout
