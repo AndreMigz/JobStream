@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+# Welcome to JobStream 🔎 👨‍💼
+- A Job Searching mobile application created with React Native and Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Key Features 🚀
+- **Third-Party Integration**: Fetch Data from an external API to intergrate into the app.
+- **Searh and Pagiantion**: Implemented a search functionality and pagination for efficient navigation of data.
+- **Custom Fetching Hooks**: Created custom hooks for reusable data fetching.
+- **Detailed Job Insights**: Includes a job details show page that enables user to view comprehensive job details.
+- **Tailored Job Search**: Find specific jobs for a particular title.
+- **Robust Loading and Error Management**
+## Get started 🤸
+- **Prerequisites:**
+   - Git
+   - Node.js
+   - npm (Node Package Manager)
 
-## Get started
+- **Installation**
+   1. Cloning the repository
 
-1. Install dependencies
+        ```bash
+         git clone https://github.com/AndreMigz/JobStream.git
+         cd project_react_native_jobs
+        ```
 
-   ```bash
-   npm install
-   ```
+   2. Install dependencies
+   
+      ```bash
+      npm install
+      ```
+   3. Obtain an API Key from [RapidAPI website](https://rapidapi.com) by creating an account. After obtaining an API key
+      replace/add the key as a value for `X-RapidAPI-Key` in the codebase.
 
-2. Start the app
+- **Running the server**
+   1. Start the app
+   
+      ```bash
+       npx expo start
+      ```
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/learn): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   2. On your terminal scan the prompted QR Code using the Expo GO app from your mobile device to access the actual app.
