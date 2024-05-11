@@ -1,5 +1,10 @@
-# Welcome to JobStream 🔎 👨‍💼
+# JobStream 🔎 👨‍💼
 - A Job Searching mobile application created with React Native and Expo
+
+## UI Demo
+
+![Untitled design](https://github.com/AndreMigz/JobStream/assets/118160061/750cf181-45e3-433d-9a5c-1f2380203d76)
+
 
 ## Key Features 🚀
 - **Third-Party Integration**: Fetch Data from an external API to intergrate into the app.
